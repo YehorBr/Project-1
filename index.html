@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Jost:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
       <div class="container header">  
-            <a href="./example.html">#<span>Stand<span>>With</span><span>Ukraine</span></a>
 
             <nav class="navigation">
                 <ul class="nav-list">
@@ -18,6 +27,7 @@
                     <li class="list-item">
                         <a href="" class="nav-link">Про нас</a>
                     </li>
+                     <li class="list-item"><a href="./example.html" class="header-logo">#<span class="logo-span1">Stand</span>With<span class="logo-span2">Ukraine</span></a>
                     <li class="list-item">
                         <a href="" class="nav-link">Пожертвування</a>
                     </li>
@@ -28,17 +38,19 @@
     <main>
         <section class="section-hero">
             <div class="container">
-                <h1>Ой у лузі...
+                <h1><span class="hero-span">Ой у лузі...</span>
                 всім по Бандера смузі</h1>
             </div>
         </section>
 
         <section class="section-about-fundraising">
             <div class="container">
+                <div class="text-container">
                 <h2 class="about-fundraising-title">Про збір коштів</h2>
                 <P class="fundraising-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                 dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
                 book.</P>
+                </div>
                 <img class="about-fundraising-image" src="./images/Soldier's-photo/Soldier2.png" alt="" width="365px">
                 <img class="about-fundraising-image" src="./images/Soldier's-photo/Soldier1.png" alt="" width="265px">
             </div>
@@ -94,11 +106,11 @@
         <div class="container footer"></div>
             <a href="./example.html">#StandwithUkraine</a>
 
-            <nav>
-                <ul>
-                    <li><a href="">Політика</a></li>
-                    <li><a href="">Політика конфіденційності</a></li>
-                    <li><a href="">Разрешения на обработку персональных данных</a></li>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="" class="nav-link">Політика</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Політика конфіденційності</a></li>
+                    <li class="nav-item"><a href="" class="nav-link">Разрешения на обработку персональных данных</a></li>
                 </ul>
             </nav>
         

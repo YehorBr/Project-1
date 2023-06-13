@@ -1,0 +1,135 @@
+:root{
+    --primary-background-color: #010632;
+    --secondary-background-color: #060D49;
+    --main-text-color: #fff;
+    --logo-color: #0075FF;
+    --second-logo-color: #FFC700;   
+}
+
+body{
+    Font-family: Jost;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.container{
+    width: 1162px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+p,
+h1,
+h2,
+h3 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--primary-background-color);
+}
+
+.header-logo{
+    color: var(--main-text-color);
+
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    
+    
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-span1{
+    color: var(--logo-color);
+}
+
+.logo-span2{
+    color: var(--second-logo-color);
+}
+
+.header .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 90px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .nav-list .list-item:not(:first-child){
+    margin-left: 47px;    
+
+}
+
+.nav-link{
+    color: var(--main-text-color);
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.section-hero{
+    background-image: url(./images/backgrounds-image/hero-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 112px;
+    padding-bottom: 323px;
+}
+
+h1{
+    color: var(--second-logo-color);
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 139px;
+    text-align: center
+}
+
+.hero-span{
+    color: var(--logo-color);
+}
+
+.section-about-fundraising{
+    background-color: var(--primary-background-color);
+}
+
+.text-container{
+    width: 415px;
+}
+
+.about-fundraising-title{
+    color: var(--main-text-color);
+
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+}
+
+.fundraising-description{
+    color: var(--main-text-color);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
