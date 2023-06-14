@@ -118,8 +118,14 @@ h1{
 
 .text-container{
     width: 415px;
+    
 }
 
+
+
+.about-us{
+    margin-left: auto;
+}
 
 
 .about-fundraising-title,
@@ -168,7 +174,10 @@ h1{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
+
+
 
 
 
@@ -288,7 +297,7 @@ h3{
 
 
 
-.footer .logo{
+.footer-logo{
     color: var(--main-text-color);
     
     font-family: 'Istok Web';
