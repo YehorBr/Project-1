@@ -12,6 +12,12 @@ body{
     font-size: 24px;
 }
 
+ *,
+ *::before,
+ *::after {
+     box-sizing: inherit;
+ }
+
 .container{
     width: 1162px;
     padding-left: 17px;
@@ -38,11 +44,14 @@ h3 {
     margin: 0;
 }
 
-header{
+header,
+.section-about-fundraising,
+.section-if-we-help,
+footer{
     background-color: var(--primary-background-color);
 }
 
-.header-logo{
+.nav-list .logo{
     color: var(--main-text-color);
 
     font-family: 'Istok Web';
@@ -111,25 +120,166 @@ h1{
     color: var(--logo-color);
 }
 
-.section-about-fundraising{
-    background-color: var(--primary-background-color);
-}
-
 .text-container{
     width: 415px;
 }
 
-.about-fundraising-title{
+.about-fundraising-title,
+.about-us-title{
     color: var(--main-text-color);
 
+    font-family: 'Istok Web';
     font-weight: 700;
     font-size: 48px;
     line-height: 69px;
+
+    margin-bottom: 10px;
 }
 
-.fundraising-description{
+.fundraising-description,
+.about-us{
     color: var(--main-text-color);
     font-weight: 400;
     font-size: 24px;
     line-height: 35px;
 }
+
+
+.section-about-us,
+.section-fundraising{
+    background-color: var(--secondary-background-color);
+}
+
+.if-we-help-title,
+.section-fundraising-title{
+    color: var(--main-text-color);
+    
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+}
+
+.if-we-help-title{
+    margin-bottom: 21px;
+}
+
+.section-fundraising{
+    padding-bottom: 196px;
+}
+
+/* .section-fundraising-title::before{
+    content: '';
+    background-image: url(./images/svg/Vector\ 1.svg);
+    background-repeat: no-repeat;
+} */
+
+.section-fundraising-title{
+    margin-bottom: 65px;
+}
+
+.fundraising-list{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fundraising-list .list-item:not(:first-child){
+    margin-left: 35px;
+}
+
+.fundraising-list .list-item{
+    background-color: var(--main-text-color);
+    
+    width: 365px;
+}
+
+.fundraising-images{
+    text-align: center;
+}
+
+
+.h3{
+    font-family: 'Istok Web';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+
+    color: #000;
+}
+
+h3 p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #000;
+}
+
+.button{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+
+    color: var(--main-text-color);
+
+    background-color: var(--logo-color);
+
+    border: none;
+    border-radius: 15px;
+
+    padding: 13px 58px;
+}
+
+
+.footer .logo{
+    color: var(--main-text-color);
+    
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    
+    }
+    
+    .logo-span1 {
+        color: var(--logo-color);
+    }
+    
+    .logo-span2 {
+        color: var(--second-logo-color);
+    }
+
+
+.footer .nav-list .list-item:not(:first-child){
+    margin-bottom: 10px;
+}
+
+
+.footer .nav-list .list-item .nav-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: var(--main-text-color);
+
+
+}
+
+.footer .nav-list{
+    
+}
+
+
+
+
