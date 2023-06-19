@@ -247,7 +247,6 @@ h3{
 }
 
 .percent{
-    display: inline-flex;
     
     text-align: center;
 
@@ -255,9 +254,12 @@ h3{
     margin-right: 159px;
 }
 
-.percent::after{
-    content: '';
+.line{
+    display: inline-flex;
+}
 
+.line::after{
+    content: '';
 
     background-image: url(./images/svg/line.svg);
     background-repeat: no-repeat;
@@ -295,6 +297,8 @@ footer{
 }
 
 .footer-logo{
+    display: block;
+
     color: var(--main-text-color);
     
     font-family: 'Istok Web';
@@ -304,8 +308,9 @@ footer{
     line-height: 69px;
     text-align: center;
     
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin: 0 auto;
     }
     
     .logo-span1 {
