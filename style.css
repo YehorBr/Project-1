@@ -15,7 +15,7 @@ body{
 
 
 .container{
-    width: 1162px;
+    width: 1163px;
     padding-left: 17px;
     padding-right: 17px;
     margin-right: auto;
@@ -116,20 +116,38 @@ h1{
     color: var(--logo-color);
 }
 
+.section-about-fundraising{
+    padding-top: 32px;
+    padding-bottom: 113px;
+}
+
 .text-container{
     width: 415px;
     
 }
 
-.text-container .about-fundraising::after{
-    content:'';
+.first-soldier{
+    position: absolute;
+    top: 838px;
+    right: 500px;
+}
 
-    background-image: url(./images/Soldiers-photo/Soldier1.png);
+.second-soldier{
+    position: absolute;
+    top: 990px;
+    right: 200px;
+
+}
+
+.section-about-us{
+    padding-top: 41px;
+    padding-bottom: 108px;
 }
 
 .about-us{
     margin-left: auto;
 }
+
 
 
 .about-fundraising-title,
@@ -152,6 +170,18 @@ h1{
     line-height: 35px;
 }
 
+.army{
+    position: absolute;
+
+    top: 1298px;
+    left: 220px;
+}
+
+.chevron {
+    position: absolute;
+    top: 1448px;
+    left: 620px;
+}
 
 .section-about-us,
 .section-fundraising{
@@ -229,8 +259,7 @@ h3{
 
     color: #000;
 
-    margin-right: 36px;
-    margin-left: 36px;
+    margin: 0 auto;
 }
 
 .fundraising-description{
@@ -242,33 +271,16 @@ h3{
     
     color: #000;
 
-    margin-left: 39px;
-    margin-right: 39px;
+    margin: 0 auto;
 }
 
 .percent{
     
     text-align: center;
 
-    margin-left: 160px;
-    margin-right: 159px;
-}
-
-.line{
-    display: inline-flex;
-}
-
-.line::after{
-    content: '';
-
-    background-image: url(./images/svg/line.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-
-    margin-top: 13px;
-    margin-bottom: 18px;
-
-    
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 13px;
 }
 
 .button{
@@ -293,7 +305,7 @@ h3{
 }
 
 footer{
-    padding-bottom: 128px;
+    padding-bottom: 148px;
 }
 
 .footer-logo{
@@ -333,8 +345,8 @@ footer{
 
 .contacts-list{
     position: absolute;
-    top: 3325px;
-    right: 460px;
+    top: 3660px;
+    right: 210px;
 }
 
 .contacts-list .list-item:not(:first-child){
