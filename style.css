@@ -15,7 +15,7 @@ body{
 
 
 .container{
-    width: 1163px;
+    width: 1165px;
     padding-left: 17px;
     padding-right: 17px;
     margin-right: auto;
@@ -43,6 +43,7 @@ h3 {
 header,
 .section-about-fundraising,
 .section-if-we-help,
+
 footer{
     background-color: var(--primary-background-color);
 }
@@ -148,8 +149,6 @@ h1{
     margin-left: auto;
 }
 
-
-
 .about-fundraising-title,
 .about-us-title{
     color: var(--main-text-color);
@@ -188,6 +187,7 @@ h1{
     background-color: var(--secondary-background-color);
 }
 
+
 .if-we-help-title,
 .section-fundraising-title{
     color: var(--main-text-color);
@@ -200,31 +200,72 @@ h1{
     text-align: center;
 }
 
+.section-if-we-help{
+    padding-bottom: 65px;
+}
+
 .if-we-help-title{
     margin-bottom: 21px;
 }
 
-.photos-list {
+.main-photos-container{
     display: flex;
+    
+    width: 1165px;
 }
 
-.photos-list div {
+/* .kharkiv,
+.odesa,
+.city,
+.kyiv2{
+    width: 364px;
+}
+
+.kyiv{
+    width: 465px;
+
+}    */
+
+
+
+.kyiv,
+.kharkiv2{
+    margin-top: 21px;
+}
+
+.kyiv{
+    margin-left: 36px;
+}
+
+.kyiv2{
+    margin-left: 36px;
+}
+
+.photos-list-container1{
     display: flex;
     flex-wrap: wrap;
 
+    width: 765px;
+}
+
+.photos-list-container2{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 36px;
+}
+
+.photos-list-container2 .list-item:not(:first-child){
+    margin-top: 21px;
 }
 
 .section-fundraising{
     padding-bottom: 196px;
 }
 
-/* .section-fundraising-title::before{
-    content: '';
-    background-image: url(./images/svg/Vector\ 1.svg);
-    background-repeat: no-repeat;
-} */
-
 .section-fundraising-title{
+    padding-top: 15px;
+
     margin-bottom: 65px;
 }
 
@@ -345,7 +386,7 @@ footer{
 
 .contacts-list{
     position: absolute;
-    top: 3660px;
+    top: 3500px;
     right: 210px;
 }
 
@@ -394,6 +435,14 @@ footer{
     background-image: url(./images/svg/twitter.svg);
 }
 
+.trips{
+    color: var(--main-text-color);
+
+    font-size: 24px;
+    text-align: center;
+
+    margin-top: 41px;
+}
 
 
 
