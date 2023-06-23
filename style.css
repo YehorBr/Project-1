@@ -214,7 +214,7 @@ h1{
     width: 1165px;
 }
 
-/* .kharkiv,
+.kharkiv,
 .odesa,
 .city,
 .kyiv2{
@@ -223,10 +223,29 @@ h1{
 
 .kyiv{
     width: 465px;
+    height: 264px;
+}
 
-}    */
+.kharkiv2{
+    width: 264px;
+    height: 261px;
+}
 
+.city{
+    height: 129px;
+}
 
+.odesa{
+    height: 114px;
+}
+
+.kyiv2{
+    height: 557px;
+}
+
+.kharkiv{
+    height: 264px;
+}
 
 .kyiv,
 .kharkiv2{
