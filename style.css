@@ -128,12 +128,16 @@ h1{
 }
 
 .first-soldier{
+    width: 365px;
+
     position: absolute;
     top: 838px;
     right: 500px;
 }
 
 .second-soldier{
+    width: 265px;
+
     position: absolute;
     top: 990px;
     right: 200px;
@@ -170,13 +174,16 @@ h1{
 }
 
 .army{
-    position: absolute;
+    width: 365px;
 
+    position: absolute;
     top: 1298px;
     left: 220px;
 }
 
 .chevron {
+    width: 265px;
+
     position: absolute;
     top: 1448px;
     left: 620px;
@@ -218,7 +225,7 @@ h1{
 .odesa,
 .city,
 .kyiv2{
-    width: 364px;
+    width: 364px; 
 }
 
 .kyiv{
@@ -365,7 +372,7 @@ h3{
 }
 
 footer{
-    padding-bottom: 148px;
+    padding-bottom: 50px;
 }
 
 .footer-logo{
@@ -459,6 +466,7 @@ footer{
 
     font-size: 24px;
     text-align: center;
+    
 
     margin-top: 41px;
 }
