@@ -350,6 +350,28 @@ h3{
     margin-bottom: 13px;
 }
 
+.line{
+    display: inline-flex;
+    
+    margin-right: 103px;
+    margin-left: 103px;
+    margin-bottom: 18px;
+    
+}
+
+.line::after{
+    content: '';
+
+    width: 160px;
+    height: 7px;
+
+    background-image: url(./images/svg/line.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
 .button{
     text-align: center;
     font-weight: 400;
